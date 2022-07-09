@@ -1,0 +1,59 @@
+* {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: rgb(252, 252, 245);
+}
+
+.accueil1 {
+    border: 1px black solid;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px gray;
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+    width: 16%;
+    background-color: black;
+    margin-left: 3%;
+}
+
+.perdu {
+    text-align: center;
+    color: green;
+    font-size: 50px;
+}
+
+.descript {
+    text-align: center;
+    font-size: 30px;
+}
+
+.foto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image1 {
+    width: 40%;
+}
+
+.Lisbonne {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 767px)
+{
+    .accueil1 {
+            width: 100%;
+            margin-left: 0;
+        }
+        .foto {
+            flex-direction: column;
+            align-items: center;
+        }
+        .image1 {
+            width: 90%;
+        }
+}
